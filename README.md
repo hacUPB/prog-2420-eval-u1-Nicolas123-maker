@@ -56,12 +56,12 @@ R/ El software se encarga de llevar a cabo porcesos y darle oredenes al hardware
 El hardware y el software se complementan de manera que el primero le da un lugar al segundo en donde puede almacenar sus componentes ya que analogamente que seria de una conciencia sin un cerebro y un cuerpo. Entre los dos permiten al usario acceder a programas y visualizar informacion digital de forma rapida y sencilla. <mark>9</mark>
 
 ![Imagen pregunta 2](https://www.mundodeportivo.com/urbantecno/hero/2023/08/hardware-y-software-que-son-y-en-que-se-diferencian.jpg?width=1200&aspect_ratio=16:9)
-
+#
 ### 3. ¿Cuál es la función de la CPU y cuáles son sus partes más importantes?
 R/ CPU son las siglas de Central Processing Unit, lo que traducido significa Unidad Central de Procesamiento. Se encarga de procesar todas las instrucciones del software, leyendo las órdenes y requisitos del sistema operativo, así como las instrucciones de cada uno de los componentes y las aplicaciones. Así pues, igual que el cerebro, la CPU es la que se encarga de que todo funcione correctamente, y de interpretar todo lo que quiere hacer el sistema operativo o los componentes, estableciendo las conexiones y realizando todos los cálculos precisos para que funcione. <mark>10
 
 ![cpu](https://i.blogs.es/db6bc5/amd/1366_2000.jpg)
-
+#
 ### 4. ¿Qué es la velocidad de la CPU, también conocida como velocidad del reloj?
 R/ El desempeño de la CPU (el “cerebro” de la PC) tiene un gran impacto en la velocidad a la cual se cargan los programas y con qué fluidez se ejecutan. Sin embargo, hay maneras diferentes de medir el desempeño del procesador. La frecuencia de reloj (también llamada “velocidad de reloj” o “frecuencia”) es una de las más importantes. En general, una velocidad de reloj más alta significa una CPU más rápida. Sin embargo, también pueden tenerse en cuenta muchos otros factores.
 
@@ -73,5 +73,8 @@ Por ejemplo una CPU con una velocidad de reloj de 3,2 GHz ejecuta 3200 millones 
 A veces, se completan múltiples instrucciones en un solo ciclo de reloj. En otros casos, una instrucción podría ser manejada a lo largo de múltiples ciclos de reloj. Dado que los distintos diseños de CPU manejan las instrucciones de manera diferente. <mark>11
 
 ![velocidad de reloj](https://www.intel.la/content/dam/www/central-libraries/us/en/images/2023-01/s10-u06-01-illustration-of-varying-cpu-clock-speed-original-rwd.jpg.rendition.intel.web.1648.927.jpg)
+#
+### 5. ¿Cuál es la secuencia de pasos que ocurre, desde el momento en que presionas el botón de encendido de la computadora, hasta que se muestra el sistema operativo listo para funcionar?
+R/  
+- Etapa 1: Inicio de la CPU
 
-### 5.  
