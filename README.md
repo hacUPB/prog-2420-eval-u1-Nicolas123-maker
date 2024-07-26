@@ -5,7 +5,7 @@
 - [INFORGRAFIA SOBRE LO INVESTIGADO](https://www.canva.com/design/DAGL6WiuH-A/QZUbLkde-qt7zqinvhT6Zg/edit?utm_content=DAGL6WiuH-A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ### SOLUCIÓN PREGUNTAS: 
-1. ¿Cuál es la función principal de cada componente investigado? 
+#### 1. ¿Cuál es la función principal de cada componente investigado? 
 
 R/ (la respuesta a continuación es un parafraseo de la info. de la infografia, por lo que las referencias de esta pregunta son las mismas que las de la infografia) 
 
@@ -50,6 +50,28 @@ Dispositivo de almacenamiento de datos que comunmente mediante un sistema de gra
 ![Fuente de alimentacion](https://www.areatecnologia.com/informatica/imagenes/fuente-de-alimentacion-pc.jpg)
 
 #
-1. ¿Cómo interactúa el hardware con el software, cuál es la función de cada uno?
+### 2. ¿Cómo interactúa el hardware con el software, cuál es la función de cada uno?
 
-R/ 
+R/ El software se encarga de llevar a cabo porcesos y darle oredenes al hardware para que ciertas tareas puedan llevarse a cabo. Mientras que el hardware se encarga de darle soporte fisico a esas operaciones y oprdenes, para que esas ciertas tareas puedan ser posibles.
+El hardware y el software se complementan de manera que el primero le da un lugar al segundo en donde puede almacenar sus componentes ya que analogamente que seria de una conciencia sin un cerebro y un cuerpo. Entre los dos permiten al usario acceder a programas y visualizar informacion digital de forma rapida y sencilla. <mark>9</mark>
+
+![Imagen pregunta 2](https://www.mundodeportivo.com/urbantecno/hero/2023/08/hardware-y-software-que-son-y-en-que-se-diferencian.jpg?width=1200&aspect_ratio=16:9)
+
+### 3. ¿Cuál es la función de la CPU y cuáles son sus partes más importantes?
+R/ CPU son las siglas de Central Processing Unit, lo que traducido significa Unidad Central de Procesamiento. Se encarga de procesar todas las instrucciones del software, leyendo las órdenes y requisitos del sistema operativo, así como las instrucciones de cada uno de los componentes y las aplicaciones. Así pues, igual que el cerebro, la CPU es la que se encarga de que todo funcione correctamente, y de interpretar todo lo que quiere hacer el sistema operativo o los componentes, estableciendo las conexiones y realizando todos los cálculos precisos para que funcione. <mark>10
+
+![cpu](https://i.blogs.es/db6bc5/amd/1366_2000.jpg)
+
+### 4. ¿Qué es la velocidad de la CPU, también conocida como velocidad del reloj?
+R/ El desempeño de la CPU (el “cerebro” de la PC) tiene un gran impacto en la velocidad a la cual se cargan los programas y con qué fluidez se ejecutan. Sin embargo, hay maneras diferentes de medir el desempeño del procesador. La frecuencia de reloj (también llamada “velocidad de reloj” o “frecuencia”) es una de las más importantes. En general, una velocidad de reloj más alta significa una CPU más rápida. Sin embargo, también pueden tenerse en cuenta muchos otros factores.
+
+Tu CPU procesa muchas instrucciones de diferentes programas cada segundo. Algunas de estas instrucciones implican una aritmética simple, mientras que otras son más complicadas. La velocidad de reloj mide la cantidad de ciclos que ejecuta tu CPU por segundo, medida en GHz (gigahertz).
+
+En este caso, un “ciclo” es la unidad básica que mide la velocidad de una CPU. Durante cada ciclo, miles de millones de transistores dentro del procesador se abren y cierran. Así es como la CPU ejecuta los cálculos que figuran en las instrucciones que recibe.
+Por ejemplo una CPU con una velocidad de reloj de 3,2 GHz ejecuta 3200 millones de ciclos por segundo. (Las CPU más antiguas tenían velocidades medidas en megahertz, o millones de ciclos por segundo.)
+
+A veces, se completan múltiples instrucciones en un solo ciclo de reloj. En otros casos, una instrucción podría ser manejada a lo largo de múltiples ciclos de reloj. Dado que los distintos diseños de CPU manejan las instrucciones de manera diferente. <mark>11
+
+![velocidad de reloj](https://www.intel.la/content/dam/www/central-libraries/us/en/images/2023-01/s10-u06-01-illustration-of-varying-cpu-clock-speed-original-rwd.jpg.rendition.intel.web.1648.927.jpg)
+
+### 5.  
