@@ -28,3 +28,7 @@ archivo o archivos que contienen la configuración de un programa, es decir las 
 3. Disco duro: 
 Dispositivo de almacenamiento de datos que comunmente mediante un sistema de grabación magnetica almacena datos digitales de forma segura (como carpetas, programas, archivos, etc.)
 4. Fuente de alimentación: Se encarga de suministrar energia al hardware de la computadora para que este pueda funcionar ademas de regular el voltaje para que este no dañe en lo posible ningun componente
+#
+1. ¿Cómo interactúa el hardware con el software, cuál es la función de cada uno?
+
+R/ 
