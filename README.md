@@ -22,4 +22,9 @@ controlar el funcionamiento y operación del hardware y otras aplicaciones. Adem
 archivo o archivos que contienen la configuración de un programa, es decir las linas de codigo que un programador escribe dando las instrucciones al programa de lo que debe de hacer al recibir ciertos datos o creando y definiendo funciones que el programa a partir de esta lines sera capaz de realizar.
 
 ### Partes del hardware:
-1. Memoria RAM: 
+1. Memoria RAM: Memoria de acceso aleatorio o RAM, almacena la información que un programa necesita mientras se ejecuta. Que sea de acceso aleatorio significa que se puede acceder a los datos almacenados en cualquier orden. al cerrar el programa que se estaba utilizando, lo que se habia almacenado en la ram se borra, pues esta es una memoria temporal.
+2. Memoria ROM: 
+
+3. Disco duro: 
+Dispositivo de almacenamiento de datos que comunmente mediante un sistema de grabación magnetica almacena datos digitales de forma segura (como carpetas, programas, archivos, etc.)
+4. Fuente de alimentación: Se encarga de suministrar energia al hardware de la computadora para que este pueda funcionar ademas de regular el voltaje para que este no dañe en lo posible ningun componente
