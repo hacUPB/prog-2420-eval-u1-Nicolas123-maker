@@ -52,7 +52,7 @@ Dispositivo de almacenamiento de datos que comunmente mediante un sistema de gra
 #
 ### 2. ¿Cómo interactúa el hardware con el software, cuál es la función de cada uno?
 
-R/ El software se encarga de llevar a cabo porcesos y darle oredenes al hardware para que ciertas tareas puedan llevarse a cabo. Mientras que el hardware se encarga de darle soporte fisico a esas operaciones y oprdenes, para que esas ciertas tareas puedan ser posibles.
+R/ El software se encarga de llevar a cabo procesos y darle oredenes al hardware para que ciertas tareas puedan llevarse a cabo. Mientras que el hardware se encarga de darle soporte fisico a esas operaciones y oprdenes, para que esas ciertas tareas puedan ser posibles.
 El hardware y el software se complementan de manera que el primero le da un lugar al segundo en donde puede almacenar sus componentes ya que analogamente que seria de una conciencia sin un cerebro y un cuerpo. Entre los dos permiten al usario acceder a programas y visualizar informacion digital de forma rapida y sencilla. <mark>9</mark>
 
 ![Imagen pregunta 2](https://www.mundodeportivo.com/urbantecno/hero/2023/08/hardware-y-software-que-son-y-en-que-se-diferencian.jpg?width=1200&aspect_ratio=16:9)
@@ -74,8 +74,8 @@ A veces, se completan múltiples instrucciones en un solo ciclo de reloj. En otr
 
 ![velocidad de reloj](https://www.intel.la/content/dam/www/central-libraries/us/en/images/2023-01/s10-u06-01-illustration-of-varying-cpu-clock-speed-original-rwd.jpg.rendition.intel.web.1648.927.jpg)
 #
-### 5. ¿Cuál es la secuencia de pasos que ocurre, desde el momento en que presionas el botón de encendido de la computadora, hasta que se muestra el sistema operativo listo para funcionar?
-R/  
+### 5. ¿Cuál es la secuencia de pasos que ocurre, desde el momento en que presionas el botón de encendido de la computadora, hasta que se muestra el sistema operativo listo para funcionar? <mark>12
+ 
 - Etapa 1: Inicio de la CPU
 
 A nivel de componentes electrónicos, existen varios circuitos encargados del proceso de arranque. Entre ellos se encuentra el RTC (Reloj en Tiempo Real), que mantiene almacenada la hora y sirve como base para la temporización del sistema operativo.
@@ -119,3 +119,33 @@ Hasta aquí es igual para cualquier sistema operativo, sin embargo, a partir de 
 4. En este punto se haría cargo del proceso el núcleo o kernel Windows NT. Y se iniciaría el archivo de inicio de sesión WINLOGON.EXE, para mostrar la pantalla de bienvenida de Windows.
 
 ![inicio de windows](https://img.pccomponentes.com/pcblog/932/windows10-opt.jpg)
+#
+### Cosas que no sabia antes de esta actividad 
+- No conocia todos los porcesos que habian detras al enceder una computadora, y en parte me sorprendio todo lo que se hace y el poco tiempo en el que se completa en la actualidad.
+- Aprendi a diferenciar el software del hardware y entendi como funiona una RAM y para que és.
+- Aprendi el significado de la "velocidad reloj" y la inmensa cantidad de ciclos que un procesador puede lleva a cabo ¡Por segundo!
+#
+### REFERENCIAS
+1. [Monterde, U. M. (n.d.). Lic. en Informática.](https://repositorio-uapa.cuaieed.unam.mx/repositorio/moodle/pluginfile.php/2777/mod_resource/content/1/UAPA-Componentes-Computadora/index.html#introduccion)
+
+2. [Introducción a los controladores. (n.d.). Intel.](https://www.intel.la/content/www/xl/es/support/articles/000056547/software/software-applications.html#:~:text=%C2%BFQu%C3%A9%20es%20un%20controlador%3F,una%20determinada%20pieza%20de%20hardware.)
+
+3. [Sulbarán, I. (2023, July 2). Descubre qué es una interfaz de usuario, ejemplos y tipos. - Tiffin University. Tiffin University.](https://global.tiffin.edu/blog/interfaz-de-usuario-ui-ejemplos-y-tipos)
+
+4. [Calero, V. (2024, July 17). Qué es Código fuente - Definición, significado y ejemplos. Arimetrics.](https://www.arimetrics.com/glosario-digital/codigo-fuente)
+
+5. [Dell. (2023, November 14). ¿Qué es la memoria del sistema (RAM)? Dell Guatemala.](https://www.dell.com/support/kbdoc/es-gt/000148441/que-es-la-memoria-del-sistema)
+
+6. [Online, T. H. (2021, 23 noviembre). RAM y ROM: ¿Cuál es la diferencia? RAM y ROM: ¿Cuál es la diferencia?](https://www.hp.com/mx-es/shop/tech-takes/ram-y-rom-cual-es-la-diferencia#:~:text=32GB%20de%20memoria.-,%C2%BFQu%C3%A9%20es%20la%20ROM%3F,de%20que%20apagues%20tu%20computadora)
+
+7. [Preparación de equipos en centros docentes para el uso de las TIC". (n.d.).](https://www.carm.es/edu/pub/04_2015/2_contenido.html)
+
+8. [Yuridia, & Yuridia. (2024, April 16). Fuentes de poder. SDI.](https://sdindustrial.com.mx/blog/fuentes-de-poder/)
+
+9. [Universidad Europea. (2021, December 20). ¿Qué es el hardware de un ordenador?](https://universidadeuropea.com/blog/que-es-hardware-ordenador/)
+
+10. [Fernández, Y. (2022, September 23). CPU: qué es, cómo es y para qué sirve. Xataka.](https://www.xataka.com/basics/cpu-que-como-sirve)
+
+11. [Velocidad de la CPU: ¿Qué es la frecuencia de reloj de la CPU? | Intel. (n.d.). Intel.](https://www.intel.la/content/www/xl/es/gaming/resources/cpu-clock-speed.html)
+
+12. [Isaac. (2023, June 16). Proceso de arranque: explicado paso a paso. Profesional Review.](https://www.profesionalreview.com/2023/07/02/proceso-arranque-pc/)
