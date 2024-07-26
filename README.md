@@ -78,3 +78,44 @@ A veces, se completan múltiples instrucciones en un solo ciclo de reloj. En otr
 R/  
 - Etapa 1: Inicio de la CPU
 
+A nivel de componentes electrónicos, existen varios circuitos encargados del proceso de arranque. Entre ellos se encuentra el RTC (Reloj en Tiempo Real), que mantiene almacenada la hora y sirve como base para la temporización del sistema operativo.
+
+Cuando se presiona el botón de encendido (arranque en frío) o el botón de reinicio (arranque en caliente), la fuente de alimentación suministra la energía necesaria. Una señal llamada «Power Good» verifica que la energía se suministre de manera estable a la CPU. La CPU inicializa sus registros, estableciéndolos en cero durante un reinicio para borrar cualquier dato residual del funcionamiento previo, o los establece en un valor conocido en caso de un arranque desde cero.
+
+![Etapa 1](https://www.adslzone.net/app/uploads-adslzone.net/2022/06/Captura-de-pantalla-2024-01-10-a-las-13.56.24-2-800x450.png)
+
+- Etapa 2: Reset code
+
+se inicia la ejecución de un programa almacenado en una memoria persistente. En este caso, se hace referencia a una dirección específica que almacena un conjunto de instrucciones destinadas a iniciar una rutina de reinicio (reset code) para activar ciertos componentes de hardware que complementan a la CPU, como el controlador de interrupciones.
+
+Cada vez que se ejecuta una instrucción del programa de arranque, el registro PC (Contador de Programa) incrementa la dirección en +1 para avanzar en la secuencia completa. De esta manera, se va ejecutando paso a paso toda la secuencia de instrucciones.
+
+-  Etapa 3: Start up code
+
+Una vez finalizada la rutina anterior, se procede a ejecutar otra rutina (startup code) almacenada en la memoria no volátil. Durante el proceso de arranque, también se realiza un diagnóstico conocido como POST (Power-On Self-Test) para verificar el estado del hardware.
+
+El autodiagnóstico se inicia cuando la CPU se examina a sí misma y luego envía una señal a través del bus del sistema para verificar la respuesta de todos los elementos conectados a él. Se evalúa la memoria de la GPU, se verifican las señales que controlan la pantalla, se realizan pruebas en los chips de RAM (escribiendo datos en las primeras direcciones y luego leyéndolos para verificar su integridad), se comprueba el funcionamiento del teclado y se envía información adicional a través de otros buses del sistema para verificar otros periféricos, entre otros procedimientos.
+
+Los resultados del test se comparan con un registro de los dispositivos almacenado en un chip (CMOS Setup). Si se detecta algún problema, se mostrará un mensaje de error o se emitirán pitidos para indicar la naturaleza del problema.
+
+![Etapa 3](https://tecadmin.net/wp-content/uploads/2023/06/Power-On-Self-Test.png)
+
+- Etapa 4: Bootstrap
+
+Esta rutina contiene las instrucciones necesarias para iniciar el sistema operativo a través del gestor de arranque o bootloader. En sistemas GNU/Linux, el gestor de arranque puede ser GRUB, LiLo, Syslinux, Windows Loader, entre otros.
+
+Si no se detecta ningún medio de almacenamiento que contenga un sistema operativo, se mostrará el mensaje «No boot device available» y se detendrá el proceso de arranque. Esto indica que no se ha encontrado ningún dispositivo de inicio válido y, por lo tanto, no se puede continuar con la carga del sistema operativo.
+
+Hasta aquí es igual para cualquier sistema operativo, sin embargo, a partir de aquí varía.
+
+- Proceso de inicio de windows 
+
+1. Se carga el gestor de arranque de Windows, denominado WinLoad o Windows Loader y usa la ruta específica BOOTMGR para montar la partición de arranque.
+
+2. Ahora, el gestor de arranque de Windows cargará dos archivos denominados NTOSKRNL.EXE y HAL.DLL para la gestión de hardware y el kernel.
+
+3. Después de eso, WinLoad lee los archivos del Registro de Windows y selecciona un perfil de hardware, cargando todos los drivers necesarios.
+
+4. En este punto se haría cargo del proceso el núcleo o kernel Windows NT. Y se iniciaría el archivo de inicio de sesión WINLOGON.EXE, para mostrar la pantalla de bienvenida de Windows.
+
+![inicio de windows](https://img.pccomponentes.com/pcblog/932/windows10-opt.jpg)
